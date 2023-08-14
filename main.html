@@ -11,17 +11,17 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<h1>Feedback Form</h1>
-	<form>
-		<label>Name</lable>
-		<input id="name" type="text" required>
+	<form method="post">
+		<label>Name</label>
+		<input id="name" type="text" required minlength="3" maxlength="50">
 		<label>Portfolio</lable>
 		<input id="portfolio" type="URL" required>
 		<label>Favorite Color</label>
 		<input id="favColor" type="Color" required>
 		<label>Likeness</lable>
-		<input id="likeness" type="Range" required>
+		<input id="likeness" type="Range" minlength="1" maxlength="100" required>
 		<input type="Submit">
-	</form>
+		</form>
 
 </body>
 
